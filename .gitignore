@@ -1,0 +1,9 @@
+.ipynb_checkpoints/
+__pycache__/
+*.bak
+# Figures / tables the notebooks write next to themselves (regenerate by running them)
+*/*.png
+*/*.pdf
+*/*.csv
+# Large derived data (GLM pickles ~45 MB each; regenerate with graphical_analysis/01_...)
+data/glm_results/
